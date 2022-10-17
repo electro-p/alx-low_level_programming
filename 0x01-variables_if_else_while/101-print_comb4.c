@@ -1,29 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 /**
- * main - Entry joint
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i, j, k;
+	int d, p, q;
 
-	for (i = '0'; i < '9'; i++)
+	for (d = '0'; d < '9'; d++)
 	{
-		for (j = i + 1; j <= '9'; j++)
+		for (p = d + 1; p <= '9'; p++)
 		{
-			for (k = j + 1; k <= '9'; k++)
+			for (q = p + 1; q <= '9'; q++)
 			{
-				if ((j != i) != k)
+				if ((p != d) != q)
 				{
-					putchar(i);
-					putchar(j);
-					putchar(k);
+					putchar(d);
+					putchar(p);
+					putchar(q);
 
-					if (i == '7' && j == '8')
+					if (d == '7' && p == '8')
 						continue;
 
 					putchar(',');
