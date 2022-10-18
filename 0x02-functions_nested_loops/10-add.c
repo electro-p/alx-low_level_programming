@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add - 
+ * add - Check main.h
  * @a: An integer a
  * @b: An integer b
  * Description: adds two integers

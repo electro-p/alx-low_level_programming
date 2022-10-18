@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_abs 
+ *_abs - Check main.h
  * @r: An integre input
  * Description: returns absolute value of a number
  */

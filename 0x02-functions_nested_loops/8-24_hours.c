@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer 
+ * jack_bauer - Check main.h
  * Description: function prints every minute in one day
  * @h: hours
  * @m: minutes

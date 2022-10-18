@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table -
+ * times_table - Check main.h
  * Description: It prints 9 times table starting with 0
  * @f: first multiplier
  * @s: secomd mulitplier
