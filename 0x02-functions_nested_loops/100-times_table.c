@@ -8,13 +8,11 @@
  */
 
 int print_times_table(int n) {
-    int i,
-    j;
+    int i, j;
 
     if (n > 0 && n < 15) {
         for (i = 0; i <= n; i++) {
             _putchar('0');
-            /*Plotting table horizontally*/
             for (j = 1; j <= n; j++) {
                 int m = i * j;
                 if (m <= 9) {
@@ -42,6 +40,10 @@ int print_times_table(int n) {
             }
             _putchar('\n');
         }
+        else
+        {
+            _putchar('0');
+        }
     }
-    return 0;
+    return(0);
 }
