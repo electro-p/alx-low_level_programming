@@ -4,7 +4,7 @@
  * print_times_table - Check description
  * Description: prints times table for numbers from 0-14
  * @n: An input integer value
- * Return: Nothing
+ * Return: 0
  */
 
 void print_times_table(int n) {
@@ -43,4 +43,5 @@ void print_times_table(int n) {
             _putchar('\n');
         }
     }
+    return 0;
 }
