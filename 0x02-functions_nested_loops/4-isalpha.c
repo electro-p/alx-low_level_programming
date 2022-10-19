@@ -13,9 +13,18 @@ int _isalpha(int c)
 
 	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
-		if (c == alpha | c == alpha + 'a' - 'A')
+		if (c == alpha)
+		{
 			is_letter = 1;
-			break;
+			return (is_letter);
+		}
+	}
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		if (c == alpha)
+		{
+			is_letter = 1;
+			return (is_letter);
 		}
 	}
 	return (is_letter);
