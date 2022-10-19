@@ -16,7 +16,7 @@ void print_times_table(int n) {
             _putchar('0');
             /*Plotting table horizontally*/
             for (j = 1; j <= n; j++) {
-                int m = i * j
+                int m = i * j;
                 if (m <= 9) {
                     _putchar(',');
                     _putchar(' ');
