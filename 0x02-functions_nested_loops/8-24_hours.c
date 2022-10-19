@@ -3,8 +3,6 @@
 /**
  * jack_bauer - Check main.h
  * Description: function prints every minute in one day
- * @h: hours
- * @m: minutes
  * Return: Nothing
  */
 void jack_bauer(void)

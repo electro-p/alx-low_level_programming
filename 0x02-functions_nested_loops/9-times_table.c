@@ -3,9 +3,6 @@
 /**
  * times_table - Check main.h
  * Description: It prints 9 times table starting with 0
- * @f: first multiplier
- * @s: secomd mulitplier
- * @n: result
  * Return: Nothing.
  */
 void times_table(void)
@@ -32,7 +29,7 @@ void times_table(void)
 			{
 				_putchar((n / 10) + '0');
 				_putchar((n % 10) + '0');
-				if (j == 9)
+				if (s == 9)
 					continue;
 				_putchar(',');
 				_putchar(' ');

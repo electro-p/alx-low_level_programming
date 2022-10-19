@@ -4,7 +4,7 @@
 /**
  * print_to_98 - Check main.h
  * @n: A input integer
- * Description: prints all natural numbers from n to 98, followed by a new line.
+ * Description: prints all numbers from n to 98, followed by a new line.
  * Return: Nothing
  */
 void print_to_98(int n)
