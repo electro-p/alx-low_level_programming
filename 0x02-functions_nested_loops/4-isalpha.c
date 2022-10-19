@@ -11,7 +11,7 @@ int _isalpha(int c)
 	char alpha;
 	int is_letter = 0;
 
-	for (alpha = 'A'; alpha <= 'Z'; alpha)
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
 		if (c == alpha | c == alpha + 'a' - 'A')
 			is_letter = 1;
