@@ -1,0 +1,8 @@
+#!/bin/bash
+chmod 777 main.h
+chmod 777 0-main.c
+chmod 777 1-main.c
+chmod 777 2-largest_number.c
+chmod 777 3-print_remaining_days.c
+chmod 777 positive_or_negative.c
+chmod 777 README.md
